@@ -9,7 +9,18 @@
       --background-end-rgb: 255, 255, 255;
       --primary-color: #FF6B6B;
       --secondary-color: #4ECDC4;
-    }
+    
+  --background-color: #F7F7F7;
+  --text-color: #333333;
+  --accent-color: #FFE66D;
+  --border-radius: 0.75rem;
+  --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.8);
+  --glass-background: rgba(255, 255, 255, 0.25);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.18);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  --glass-blur: blur(4px);
+  --transition-speed: 0.3s;
+}
 
     html {
       scroll-behavior: smooth;
