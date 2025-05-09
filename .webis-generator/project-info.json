@@ -1,8 +1,37 @@
 {
   "projectName": "מספרה-גמא-5774",
   "businessName": "מספרה גמא",
-  "created": "2025-05-09T13:02:54.325Z",
-  "status": "initialized",
-  "progress": 0,
-  "components": []
+  "description": "אנחנו מספרה מוביל בתחום האופנה עם ניסיון של שנים רבות. אנחנו מתמחים במתן שירות מקצועי ואיכותי ללקוחותינו.",
+  "created": "2025-05-09T13:03:59.192Z",
+  "generatedWith": "webis-generator",
+  "repoName": "webis-site-msprh-gma-1746795774271",
+  "formData": {
+    "businessName": "מספרה גמא",
+    "businessType": "beauty",
+    "industry": "שירותים",
+    "businessSize": "medium",
+    "description": "אנחנו מספרה מוביל בתחום האופנה עם ניסיון של שנים רבות. אנחנו מתמחים במתן שירות מקצועי ואיכותי ללקוחותינו.",
+    "language": "he",
+    "primaryColor": "#FF6B6B",
+    "secondaryColor": "#4ECDC4",
+    "typographyStyle": "modern",
+    "animationPreference": "bold",
+    "headline": "מספרה מוביל בישראל",
+    "descriptionText": "חווית לקוח מושלמת בכל ביקור",
+    "ctaText": "קבע תור עכשיו",
+    "formFields": "שם, טלפון, אימייל, הודעה",
+    "includeTestimonials": true,
+    "includeFAQ": true,
+    "hasProducts": false,
+    "hasServices": true,
+    "hasPortfolio": false,
+    "needsBookingSystem": true,
+    "metaDescription": "מספרה מוביל המספק שירות מקצועי ואיכותי. הזמינו תור עוד היום!",
+    "metaKeywords": "מספרה, שירות, איכות, מקצועיות, ישראל",
+    "designStyles": [
+      "neumorphic",
+      "glassmorphism",
+      "corporate"
+    ]
+  }
 }
