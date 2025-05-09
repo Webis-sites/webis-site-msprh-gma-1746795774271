@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { FaScissors, FaAward, FaUsers, FaCalendarAlt } from 'react-icons/fa';
+import { FaAward, FaUsers, FaCalendarAlt } from 'react-icons/fa';
+import { FaScissors as FaScissors6 } from 'react-icons/fa6';
 
 interface Achievement {
   id: number;
@@ -22,7 +23,7 @@ const AboutSection = () => {
   const achievements: Achievement[] = [
     { id: 1, icon: <FaCalendarAlt className="text-2xl text-primary" />, count: 15, label: 'שנות ניסיון' },
     { id: 2, icon: <FaUsers className="text-2xl text-primary" />, count: 5000, label: 'לקוחות מרוצים' },
-    { id: 3, icon: <FaScissors className="text-2xl text-primary" />, count: 20, label: 'מעצבי שיער' },
+    { id: 3, icon: <FaScissors6 className="text-2xl text-primary" />, count: 20, label: 'מעצבי שיער' },
     { id: 4, icon: <FaAward className="text-2xl text-primary" />, count: 12, label: 'פרסים' },
   ];
 

@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaBars, FaTimes, FaScissors, FaInfoCircle, FaCalendarAlt, FaQuestionCircle, FaPhone, FaComments } from 'react-icons/fa';
+import { FaBars, FaTimes, FaInfoCircle, FaCalendarAlt, FaQuestionCircle, FaPhone, FaComments } from 'react-icons/fa';
+import { FaScissors as FaScissors6 } from 'react-icons/fa6';
 
 interface NavItem {
   id: string;
@@ -17,7 +18,7 @@ const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
 
   const navItems: NavItem[] = [
-    { id: 'services', label: 'שירותים', icon: <FaScissors /> },
+    { id: 'services', label: 'שירותים', icon: <FaScissors6 /> },
     { id: 'about', label: 'אודות', icon: <FaInfoCircle /> },
     { id: 'testimonials', label: 'המלצות', icon: <FaComments /> },
     { id: 'booking', label: 'הזמנת תור', icon: <FaCalendarAlt /> },

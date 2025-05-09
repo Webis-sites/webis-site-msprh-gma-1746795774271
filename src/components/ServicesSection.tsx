@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaScissors, FaPaintBrush, FaSprayCan, FaHandSparkles, FaMagic, FaGem } from 'react-icons/fa';
+import { FaPaintBrush, FaSprayCan, FaHandSparkles, FaMagic, FaGem } from 'react-icons/fa';
+import { FaScissors as FaScissors6 } from 'react-icons/fa6';
 import Image from 'next/image';
 
 interface Service {
@@ -36,7 +37,7 @@ const ServicesSection = () => {
       description: 'תספורת מקצועית המותאמת אישית לצורת הפנים ולסגנון האישי שלך.',
       duration: '45 דקות',
       price: '₪150',
-      icon: <FaScissors className="text-2xl" />,
+      icon: <FaScissors6 className="text-2xl" />,
       image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
     },
     {

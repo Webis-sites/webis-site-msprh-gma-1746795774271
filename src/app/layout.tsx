@@ -1,7 +1,7 @@
 import './globals.css';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import Navbar from '@/components/Navbar';
 
 // הגדרת הפונט העברי
