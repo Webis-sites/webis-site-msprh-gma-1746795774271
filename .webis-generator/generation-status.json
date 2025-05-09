@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-05-09T13:14:32.881Z",
+  "timestamp": "2025-05-09T13:15:32.446Z",
   "status": {
     "totalComponents": 12,
-    "completedComponents": 8,
+    "completedComponents": 9,
     "failedComponents": 0,
-    "progress": 67
+    "progress": 75
   },
   "components": [
     {
@@ -58,7 +58,7 @@
     {
       "name": "FAQSection",
       "type": "faq",
-      "status": "pending",
+      "status": "completed",
       "description": "Frequently asked questions about salon services, policies and procedures"
     },
     {
