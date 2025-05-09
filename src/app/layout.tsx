@@ -2,6 +2,7 @@ import './globals.css';
 import { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
 import { ReactNode } from 'react';
+import Navbar from '@/components/Navbar';
 
 // הגדרת הפונט העברי
 const rubik = Rubik({
@@ -93,6 +94,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         />
       </head>
       <body className="bg-gray-50 text-right min-h-screen">
+        <Navbar />
         <div className="container mx-auto px-4 py-8">
           {children}
         </div>
