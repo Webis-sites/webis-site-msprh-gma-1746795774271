@@ -1,0 +1,7 @@
+
+    # robots.txt for מספרה גמא
+    User-agent: *
+    Allow: /
+
+    # Sitemap
+    Sitemap: https://מספרה-גמא.com/sitemap.xml
