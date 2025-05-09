@@ -1,8 +1,84 @@
 {
-  "projectName": "מספרה-גמא-5774",
-  "businessName": "מספרה גמא",
-  "created": "2025-05-09T13:02:54.325Z",
-  "status": "initialized",
-  "progress": 0,
-  "components": []
+  "timestamp": "2025-05-09T13:04:49.439Z",
+  "status": {
+    "totalComponents": 12,
+    "completedComponents": 0,
+    "failedComponents": 0,
+    "progress": 0
+  },
+  "components": [
+    {
+      "name": "Layout",
+      "type": "layout",
+      "status": "pending",
+      "description": "Root layout component with metadata, fonts and global styles"
+    },
+    {
+      "name": "Navbar",
+      "type": "navigation",
+      "status": "pending",
+      "description": "RTL-optimized navigation bar with the salon name and links to page sections"
+    },
+    {
+      "name": "HeroSection",
+      "type": "hero",
+      "status": "pending",
+      "description": "Bold, attention-grabbing hero section showcasing the salon's premium services"
+    },
+    {
+      "name": "ServicesSection",
+      "type": "services",
+      "status": "pending",
+      "description": "Showcase of the salon's professional hair services with visual elements"
+    },
+    {
+      "name": "AboutSection",
+      "type": "about",
+      "status": "pending",
+      "description": "Information about the salon's history, expertise and professional approach"
+    },
+    {
+      "name": "BookingSection",
+      "type": "booking",
+      "status": "pending",
+      "description": "Interactive booking form for salon appointments with service selection"
+    },
+    {
+      "name": "TestimonialsSection",
+      "type": "testimonials",
+      "status": "pending",
+      "description": "Customer reviews and success stories showcasing client satisfaction"
+    },
+    {
+      "name": "GallerySection",
+      "type": "gallery",
+      "status": "pending",
+      "description": "Visual showcase of hairstyles and salon work to demonstrate expertise"
+    },
+    {
+      "name": "FAQSection",
+      "type": "faq",
+      "status": "pending",
+      "description": "Frequently asked questions about salon services, policies and procedures"
+    },
+    {
+      "name": "TeamSection",
+      "type": "team",
+      "status": "pending",
+      "description": "Introduction to the salon's professional stylists and their specialties"
+    },
+    {
+      "name": "ContactSection",
+      "type": "contact",
+      "status": "pending",
+      "description": "Contact information, location map and quick contact form"
+    },
+    {
+      "name": "Footer",
+      "type": "footer",
+      "status": "pending",
+      "description": "Page footer with copyright, links and additional information"
+    }
+  ],
+  "repoName": "webis-site-msprh-gma-1746795774271"
 }
