@@ -32,6 +32,9 @@
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
+
+  --card-shadow: 8px 8px 16px rgba(209, 217, 230, 0.5), -8px -8px 16px rgba(255, 255, 255, 0.8);
+  --card-border-radius: 1rem;
 }
 
     html {
